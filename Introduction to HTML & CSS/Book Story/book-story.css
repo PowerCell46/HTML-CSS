@@ -1,0 +1,16 @@
+main {
+    width: 400px;
+    background-color: #dddddd;
+    border-color: 1px solid #000000;
+    border: 1px solid #000000;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.text_size {
+    font-size: 18px;
+}
