@@ -1,0 +1,35 @@
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body header h1 {
+    display: inline;
+	font-weight: 750;
+}
+
+body header nav ul li {
+    display: inline-block;
+}
+
+.ma {
+    color: #228B22;
+    text-decoration: none;
+}
+
+header nav {
+	display: inline-block;
+	text-indent: 80px;
+}
+
+.line {
+ border-top: 2px solid black;
+}
+
+.secondheading {
+	font-family:monospace;
+}
+
+main p { 
+	line-height: 1.5;
+}
