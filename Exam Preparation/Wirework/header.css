@@ -1,0 +1,51 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    margin-top: 30px;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    display: inline;
+    margin-left: 25px;
+    padding-right: 20px;
+    border-right: 2px solid #dedede;
+    font-size: 40px;
+}
+
+header p {
+    display: inline;
+    margin-left: 20px;
+    color: gray;padding-top: 15px;
+}
+
+header p span {
+    color: black;
+}
+
+.menu {
+    list-style: none;
+    gap: 1px;
+    display: flex;
+}
+.menu li:nth-child(1) {
+    margin-left: 400px;
+}
+
+.menu li {
+    background-color: #ececec;
+    padding: 30px 50px;
+}
+
+.menu li:hover {
+    transition: 600ms background-color ease-in-out;
+    background-color: #e24e2a;
+    color: white;
+    cursor: pointer;
+}
