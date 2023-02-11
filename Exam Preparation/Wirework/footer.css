@@ -1,0 +1,13 @@
+footer {
+    background-color: #1b9772;
+    height: 150px;
+    margin-top: -17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9bd4c5;
+}
+
+footer p span {
+    color: whitesmoke;
+}
