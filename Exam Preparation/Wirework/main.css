@@ -1,0 +1,136 @@
+main .upper__part img {
+    width: 100%;
+    margin-bottom: 0px;
+    height: 650px;
+    object-fit: cover;
+} 
+
+main .upper__part div p {
+    height: 150px;
+    background-color: #e24e2a;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    color: #f5c6ba;
+    font-size: 17px;
+    padding-top: 100px;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+main .upper__part div p .bold {
+    font-weight: 600;
+    color: white;
+}
+main .upper__part div p .underline {
+    color: white;
+    text-decoration: underline;
+}
+
+/* First Black Part */
+
+main .first_black_part {
+    height: 420px;
+    background-color: #383838;
+    margin-top: -17px;
+
+}
+
+main .first_black_part ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+main .first_black_part ul li i {
+    padding: 25px 25px;
+    background-color: #e24e2a;
+    color: #ffffff;
+    font-size: 60px;
+    margin-left: 165px;
+    margin-top: 20%;
+}
+
+.first_black_part_elements h3{
+    color: #ffffff;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #5e636a;
+}
+
+.first_black_part_elements p {
+    margin-top: 40px;
+    color: #5e636a;
+    text-align: center;
+}
+
+/* Main White Part */
+
+main .white_part {
+    height: 220px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+main .white_part h2 {
+    color: #595959;
+    font-weight: lighter;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+main .white_part p {
+    color:#a4a8b0;
+    margin-top: 6px;
+    margin-bottom: 40px;
+}
+ 
+main .white_part a {
+    margin-top: 100px;
+    text-decoration: none;
+    color: #f1f8f5;
+    background-color: #1b9772;
+    padding: 15px 40px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+main .white_part a:hover {
+    transition: 600ms background-color ease-in-out;
+    background-color: #e24e2a;
+}
+
+/* Second Black Part */
+
+
+main .second_black_part {
+    height: 400px;
+    background-color: #383838;
+    display: block;
+}
+
+main .second_black_part ul {
+    list-style: none;
+    display: flex;
+    padding-top: 5%;
+    justify-content: center;
+    gap: 100px
+}
+
+main .second_black_part ul li div {
+    display: block;
+    width: 300px;
+}
+
+main .second_black_part ul li div h3 {
+    color: #fcf8ed;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+main .second_black_part ul li div p {
+    color: #5e636a;
+    line-height: 2;
+}
