@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5e0b5;
+}
+
+body {
+    display: grid;
+    grid-template-areas: 
+    "article aside"
+    "article aside";
+}
+
+
+article {
+    grid-area: article;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+aside {
+    grid-area: aside;
+    position: absolute;
+    left: 1140px;
+    top: 110px;
+    font-weight: 500;
+}
+
+.card {
+    width: 400px;
+    background-color: #66555f;
+    border-radius: 20px;
+    overflow: hidden;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 54px -3px rgba(0,0,0,0.75); 
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-indent: 6px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#TV_card {
+    position: relative;
+    top: 310px;
+    right: 924px;
+} 
+
+#Arts_card {
+    position: relative;
+    top: 310px;
+    right: 924px;
+
+}
+
+aside ul li{
+    list-style: none;
+    margin-bottom: 30px;
+    color: #66555f;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+aside ul li span {
+    margin-left: 15px;
+}
+
+#title {
+    margin-left: 0px;
+}
