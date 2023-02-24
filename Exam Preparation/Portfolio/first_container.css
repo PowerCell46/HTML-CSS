@@ -1,0 +1,75 @@
+#first_container {
+    display: grid;
+    grid-template-areas: 
+    "h2 aside"
+    "p aside";
+}
+
+#first_container p {
+    grid-area: p;
+}
+
+#first_container h2 {
+    grid-area: h2;
+}
+
+#first_container .picture {
+    grid-area: aside;
+}
+
+#first_container aside {
+position: absolute;
+left: 93%;
+top: 20%;
+}
+#menu {
+    position: relative;
+    right: 20px;
+    top: 38px;
+    font-style: normal;
+    font-size: 17px;
+}
+
+#menu:hover, #symbol:hover {
+    transition: color 600ms ease-in-out;
+    cursor: pointer;
+    color: #2C73D2;
+}
+
+#symbol {
+    position: absolute;
+    left: 129%;
+}
+/* оправи менюто */
+
+#first_container h2 {
+    margin-top: 25%;
+    margin-left: 20%;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+#first_container h2 span {
+    font-weight: 1000;
+}
+
+#first_container p {
+    margin-top: -220px;
+    margin-left: 20%;
+    line-height: 1.5;
+    font-style: italic;
+    font-family: serif;
+}
+#menu {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line {
+    height: 70px;
+    border-left: 1.2px solid black;
+    position: absolute;
+    bottom: 56%;
+    left: 9.2%;
+}
+
+

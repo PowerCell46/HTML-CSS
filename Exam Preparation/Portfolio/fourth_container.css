@@ -1,0 +1,36 @@
+#fourth_container {
+    display: grid;
+    grid-template-areas:
+    "header picture"
+    "paragraph picture";
+}
+
+#fourth_container h2 {
+    grid-area: header;
+    margin-top: 35%;
+    margin-left: 13%;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#fourth_container h2 span {
+    font-weight: bold;
+}
+
+#fourth_container p {
+    grid-area: paragraph;
+    margin-top: -62%;
+    margin-left: 13%;
+    font-family: serif;
+    font-style: italic;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+#fourth_container .picture img {
+    grid-area: picture;
+    height: 460px;
+    width: 930px;
+    margin-left: 100px;
+    margin-top:12%;
+}

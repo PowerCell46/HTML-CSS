@@ -1,0 +1,50 @@
+#fifth_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.images {
+
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#fifth_container img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+#baloon {
+    transform: scale(1.2);
+}
+
+/* #fifth_container img {
+    position: absolute;
+    margin-left: 1500px;
+    height: 500px;
+    width: auto;
+    margin-top: 20%;
+} */
+
+/* #baloon {
+    transform: scale(2);
+    z-index: 2;
+}
+
+#bridge {
+    margin-left: -20%;
+    z-index: 1;
+}
+
+#river {
+    margin-left: 20%;
+    z-index: 1;
+}
+ */
