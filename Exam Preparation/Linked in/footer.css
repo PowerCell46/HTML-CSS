@@ -1,0 +1,30 @@
+footer {
+    background-color: #faf9f7;
+    position: relative;
+    height: 150px;
+    bottom: 860px;
+    display: flex;
+    gap: 100px;
+    padding-left: 10%;
+}
+
+footer img {
+    height: 70px;
+    cursor: pointer;
+}
+
+footer ul  {
+    list-style: none;
+    color: #5c5c5b;
+    font-weight: bold;
+    
+}
+footer ul li {
+    line-height: 1.7;
+    cursor: pointer;
+}
+
+.heading_footer {
+    color: black;
+    margin-bottom: 7px;
+}

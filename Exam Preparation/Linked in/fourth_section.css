@@ -1,0 +1,27 @@
+.fourth_section {
+    position: relative;
+    bottom: 735px;
+    background-color: #faf9f7;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    height: 700px;
+}
+
+.fourth_section img {
+    height: 500px;
+}
+
+.fourth_section h3 {
+    position: relative;
+    left: 10%;
+    bottom: 125px;
+    font-size: 35px;
+    font-weight: lighter;
+    color: #2977c9;
+}
+.fourth_section p {
+    line-height: 1.5;
+    margin-left: -22.9%;
+    font-size: 20px;
+}

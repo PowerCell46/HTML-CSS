@@ -1,0 +1,43 @@
+.second_section {
+    position: relative;
+    background-color: #faf9f7;
+    bottom: 693px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding-left: 10%;
+}
+
+.second_section h2 {
+    font-size: 55px;
+    font-weight: lighter;
+ 
+}
+
+.button_section p {
+    font-weight: bold;
+    color: #5c5c5b;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.second_section button {
+    height: 40px;
+    width: 200px;
+    background-color: #e6e5e4;
+    border-radius: 20px;
+    border: transparent;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #5c5c5b;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.second_section button:hover {
+    transition: background-color 600ms ease-in-out;
+    transition: color 300ms ease-in-out;
+    background-color: #2375c8;
+    color: white;
+}

@@ -1,0 +1,35 @@
+.third_section {
+    background-color: #f1ece5;
+    position: relative;
+    bottom: 715px;
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    padding-left: 10%;
+}
+
+.third_section h2 {
+    color: #b24020;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.third_section a {
+    text-decoration: none;
+    color: #5c5c5b;
+    padding: 15px 20px;
+    border: 1px solid #5c5c5b;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.third_section a:hover {
+    transition: background-color 600ms ease-in-out;
+    transition: color 300ms ease-in-out;
+    background-color: #2375c8;
+    color: white;
+    font-weight: lighter;
+}

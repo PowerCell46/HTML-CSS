@@ -1,0 +1,114 @@
+#logo {
+    height: 140px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.first_section h1 {
+    font-size: 65px;
+    color: #2977c9;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 5px ;
+
+}
+
+.log_in_btns {
+    margin-top: 10px;
+    height: 60px;
+    width: 500px;
+    border-radius: 4px;
+}
+
+.log_in_btns::placeholder {
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+#show_btn {
+    position: relative;
+    right: 63px;
+    text-decoration: none;
+    color: #5c5c5b;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#show_btn:hover {
+    transition: color 300ms ease-in-out;
+    color: black;
+}
+
+.first_section p {
+    font-size: 20px;
+    color: #5c5c5b;
+    cursor: pointer;
+}
+
+.first_section p:hover {
+    transition: color 300ms ease-in-out;
+    color: black;
+}
+
+.first_section button {
+    width: 500px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #0a66c2;
+    color: #fefcfa;
+    font-size: 20px;
+    position: relative;
+    bottom: 960px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.first_section button:hover {
+    transition: background-color 600ms ease-in-out;
+    background-color: #2375c8;
+}
+
+.heading_img {
+    height: 1000px;
+    position: relative;
+    left: 457px;
+    bottom: 400px;
+    z-index: 2;
+}
+
+.first_section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    bottom: 1500px;
+    left: 1450px;
+}
+
+.first_section ul li a {
+    text-decoration: none;
+    color: #5c5c5b;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#sign_in {
+    color: #0a66c2;
+    border: 1px solid #0a66c2;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.first_section ul li a:hover {
+    color: black;
+}
+
+#sign_in:hover {
+    transition: background-color 1000ms ease-in-out;
+    transition: color 300ms ease-in-out;
+    background-color: #0a66c2;
+    border: 1px solid #0a66c2;
+    color: white;
+    font-weight: lighter;
+}
