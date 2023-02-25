@@ -1,0 +1,104 @@
+@media screen and (max-width: 600px) {
+    .main-nav {
+        display: none;
+    }
+    .hero-head {
+        background-image: none;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .wrap .wrapper h1, .goal {
+        text-align: center;
+    }
+
+    .wrapper h1 {
+        margin-top: -50px;
+        line-height: 1.5;
+
+    }
+
+    .goal {
+        margin-left: 25%;
+    }
+
+    .col h3, .module-text {
+        text-align: center;
+
+    }
+
+    .two-col {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .two-col .col:first-child {
+        margin-top: -70px;
+    }
+
+    .button {
+        margin-left: 5%;
+        padding-left: 30%;
+        padding-right: 40%;
+        text-indent: 15px;
+    }
+    
+    .content-wrap-full {
+        width: 50%;
+    }
+
+    footer {
+        position: absolute;
+        background-color: #171720;
+        top: 2100px;
+        width: 100%;
+        padding-left: 33%;
+        padding-top: 40px;
+        
+    }
+
+    footer div h4 {
+        position: relative;
+        text-align: center;
+        left: -43%;
+        padding-left: 13px;
+        color: white;
+        font-family: serif;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    footer div p, footer div nav ul li a {
+        text-align: center;
+        position: relative;
+        left: -43%;
+        color: #b3a6a8;
+        line-height: 2;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    footer div p {
+        line-height: 3;
+    }
+    footer div nav ul li  {
+        text-align: center;
+        line-height: 4;
+        position: relative;
+        
+        left: 0%;
+    }
+
+    .copyright {
+        border-top: 1px solid #b3a6a8 ;
+        margin-top: 80px;
+        padding-top: 10px;
+        color: #b3a6a8 ;
+        font-size: 12px;
+        margin-left: -18%;
+        text-indent: 250px;
+    }
+}
+
