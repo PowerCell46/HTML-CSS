@@ -1,0 +1,124 @@
+@media screen and (width <= 600px) {
+    .navbar-nav .mr-auto {
+        display: none;
+    }
+
+    .navbar-brand {
+        margin-left: 50%;
+        margin-right: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .container {
+        text-align: center;
+    }
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 50%;
+        margin-right: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+
+    .container h1, .row {
+        margin-top: 25px;
+    }
+    .hero img {
+        display: none;
+    }
+
+    .col-lg-6 h5, .row h5, .row h2  {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .service-box img {
+        position: relative;
+        left: 120px;
+        margin-bottom: -120px;
+    }
+
+    .col-12 {
+        margin-top: -10px;
+    }
+
+
+    .col-12 h5 {
+        margin-top: -15px;
+    }
+    .col-12 h3 {
+        width: 100px;
+        margin-left: 100px;
+    }
+    .contact-nav {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-btn a {
+        display: none;
+    }
+    .container-fluid {
+        display: flex;
+    }
+
+    .col-lg-6 h5 {
+        margin-top:60px;
+    }
+
+    .col-lg-6 p {
+        margin-bottom: -80px;
+    }
+
+    .col-12 h5 {
+        margin-bottom: -30px;
+    }
+
+    .col-12 h3 {
+        margin-top: 50px;
+    }
+    .col-lg-6 h2 {
+    margin-top: 40px;
+    }
+    .service-box {
+        text-align: left;
+    }
+    .service-box h3 {
+        margin-top: 0px;
+        margin-left: -3px;
+    }
+    #mamka__mu {
+        position: relative;
+        top: -100px;
+        background-color: #314584;
+    }
+    .col-12 h3 {
+        margin-top: 120px;
+
+    }
+
+    #izrod {
+        position: relative;
+        top: 80px;
+        margin-top: 100px;
+    }
+    #footer_heading {
+        position: relative;
+        left: 20px;
+    }
+    #footer_heading span {
+        position: relative;
+        left: 50px;
+    }
+    .service-box h3  {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 120px;
+    }
+
+    .service-box {
+        margin-bottom: 40px;
+    }
+}
