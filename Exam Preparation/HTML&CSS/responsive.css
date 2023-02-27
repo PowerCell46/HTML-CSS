@@ -1,0 +1,75 @@
+@media screen and (max-width: 600px) {
+
+.header-img-wrapper img {
+    display: none;
+}
+
+.navigation-logo {
+    position: relative;
+    bottom: 180px;
+    left: 130px;
+}
+
+.navigation-slogan {
+    position: relative;
+    bottom: 180px;
+    left: 130px;
+}
+
+.navigation-list {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 230px;
+    top: 20px;
+}
+
+.navigation {
+    height: 365px;
+}
+
+.header-content-text {
+width: 70%;
+}
+
+/*  */
+.benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.benefit {
+    width: 70%;
+    margin-left: 75px;
+    margin-bottom: 40px;
+}
+
+/*  */
+
+.cta-section {
+    width: 50%;
+    margin-left: 140px;
+    
+}
+
+/*  */
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-section-item-text {
+    margin-bottom: 70px;
+    width: 75%;
+    margin-left: 50px;
+}
+/*  */
+footer {
+    word-break:break-all;
+    padding-left: 182px;
+    padding-right: 182px;
+}
+}
