@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+.container {
+    display: grid;
+    grid-template-areas:
+    "header header aside"
+    "main main aside"
+    "main main aside"
+    ". . aside";
+    gap: 10px;
+}
+
+header {
+    grid-area: header;
+    max-width: 45%;
+    margin-left: 10%;
+}
+
+header h1 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+
+
+main {
+    margin-left: 10%;
+    grid-area: main;
+    max-width: 45%;
+}
+main p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+
+
+section ul {
+    list-style: none;
+    margin-left: -2.5%;
+    font-family: sans-serif ;
+    font-weight:lighter;
+}
+
+section ul li img {
+    height: 70px;
+    width: 70px;
+}
+
+.elements {
+    margin-top: 50px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+
+.elements img {
+    position: absolute;
+    left: 6.5%;
+}
+
+
+
+aside {
+    grid-area: aside;
+}
+
+aside img {
+    height: 100%;
+    width: auto;
+    margin-left: -80%;
+}
