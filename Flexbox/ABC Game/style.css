@@ -1,0 +1,23 @@
+.container span {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px 20px;
+    height: 20px;
+    width: 30px;
+    align-items: center;
+}
+
+body div {
+    display: flex;
+    margin-left: 20px;
+    max-width: 15vw;
+    height: 35rem;
+    gap: 3px;
+    flex-direction: column;
+
+}
+
