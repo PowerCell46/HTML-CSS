@@ -1,0 +1,33 @@
+
+body {
+
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    margin-left: 15px;
+}
+main p {
+    font-size: 12px;
+}
+
+header {
+    border-bottom: 3px solid black; 
+    font-family: sans-serif;
+
+}
+
+header h1 {
+    margin-left: 10px;
+}
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    height:100px;
+    margin: -12px;
+    margin-top: 2px;
+    padding: 0px;
+}
+footer p {
+    font-size: 12px;
+    margin-left: 10px;
+}
