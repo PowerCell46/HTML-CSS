@@ -1,0 +1,29 @@
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: rgb(238, 238, 238)
+
+}
+.image {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    padding: 5px 5px;
+}
+
+body div blockquote {
+    font-family: Georgia, serif;
+}
+
+.main_titles {
+    border-bottom: 5px solid black;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+aside ul li a {
+    color:green;
+    text-decoration: none;
+}
