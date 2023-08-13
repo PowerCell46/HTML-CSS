@@ -1,0 +1,18 @@
+.viewport {
+    display: block;
+}
+
+#one {
+    background-image: linear-gradient(to right, #185c9d, #0068a1, #0072a3, #007ca3, #0086a2, #008fa4, #0598a5, #1ca1a5, #16aca7, #1eb7a7, #2ec2a5, #43cca1);
+}
+#two {
+    background-image: linear-gradient(to right, #a83377, #b1366a, #b63c5e, #b94453, #b94e49, #bb5643, #bc5e3e, #bc6639, #c06e35, #c37630, #c47e2b, #c58726);
+}
+
+
+div i {
+    position: relative;
+    left: -27px;
+    top: -10px;
+    color: white;
+}
