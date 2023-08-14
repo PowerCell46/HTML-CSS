@@ -1,0 +1,172 @@
+html {
+    display: grid;
+    grid-template-areas:
+    "heading heading heading navigation"
+    "heading1 . . . navigation1"
+    "firstP firstP firstP navigation1"
+    "secondP secondP secondP navigation1"
+    "heading2"
+    "thirdP thirdP thirdP thirdP"
+    "fourthP fourthP quote quote"
+    "fifthP fifthP fifthP fifthP"
+    "heading3"
+    "sixthP sixthP sixthP sixthP"
+    "seventhP seventhP seventhP seventhP" ;
+    margin-left: 7%;
+}
+
+body {
+    background-color: rgb(238, 238, 238) ;
+}
+
+#heading1 {
+    grid-area: heading;
+    font-size: 40px;
+    font-family: sans-serif;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+#upper_nav {
+    grid-area: navigation;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 850px;
+    bottom: 90px;
+    cursor: pointer;
+    color: rgb(0, 102, 0) ;
+}
+
+#heading2 {
+    grid-area: heading1;
+    margin-top: -40px;
+}
+
+#first_picture {
+  position: relative;
+  left: 550px;
+    bottom: 250px;
+    background-color: rgb(255, 255, 255) ;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    padding: 9px 6px;
+    border: 3px solid black;
+}
+
+#nav1 {
+    grid-area: navigation1;
+    position: relative;
+    left: 850px;
+    bottom: 410px;
+}
+
+#first_p {
+    grid-area: firstP;
+    width: 500px;
+}
+
+#secondP {
+    grid-area: secondP;
+    margin-top: -280px;
+    width: 740px;
+}
+
+#heading_level2 {
+    grid-area: heading2;
+    margin-top: -230px;
+}
+
+#third_p {
+    grid-area: thirdP;
+    width: 740px;
+}
+#fourth_p {
+    grid-area: fourthP;
+    width: 370px;
+    margin-top: -114px;
+    border-right: 3px solid lightgray;
+    padding-right: 10px;
+}
+#quote {
+    grid-area: quote;
+    width: 370px;
+    position: relative;
+    left: 355px;
+    font-family: Georgia, serif ;
+    top: 20px;
+    font-size: 14px;
+    color: grey;
+    font-style: italic;
+}
+.autor{
+    color: grey;
+    font-size: 14px;
+    position: relative;
+    left: 580px;
+    top: 5px;
+    font-family: Georgia, serif ;
+    font-style: italic;
+}
+
+#fifth_p {
+    grid-area: fifthP;
+    width: 740px;
+}
+
+#heading3 {
+    grid-area: heading3;
+    margin-top: 40px;
+}
+
+#sixthP {
+    grid-area: sixthP;
+    position: relative;
+    left: 230px;
+    bottom: 150px;
+    width: 530px;
+
+}
+
+#seventhP {
+    grid-area: seventhP;
+    position: relative;
+    bottom: 140px;
+    left: 230px;
+}
+
+.final_txt {
+    position: relative;
+    right: 221px;
+}
+
+#second_picture {
+    background-color: rgb(255, 255, 255) ;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    padding: 6px 6px;
+    border: 3px solid black;
+}
+
+#heading2, .heading_s, #heading_level2, #heading3 {
+    font-family: Georgia, serif ;
+    font-size: 1em;
+}
+
+.heading_s {
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+
+#nav1 nav ul li a {
+    text-decoration: none;
+    color: forestgreen;
+    
+
+}
+
+#nav1 nav ul {
+    margin-top: -15px;
+}
