@@ -1,0 +1,30 @@
+
+ dt {
+    display: block;
+    padding-bottom: 4px;
+ }
+
+ dt a {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #303030;
+   color: #fff;
+ }
+
+
+ dt:target a::after {
+   content: "-   ";
+ }
+
+
+ dd {
+    display: none;
+    padding: 1em 1.5em;
+    border: 2px solid #222;
+    margin-bottom: 4px;
+ }
+
+ dd:target + dd {
+    display: block;
+ }
