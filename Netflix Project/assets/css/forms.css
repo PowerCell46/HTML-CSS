@@ -1,0 +1,94 @@
+form {
+    display: flex;
+    padding-bottom: 1.5em;
+    gap: 2px;
+    justify-content: center;
+}
+
+form p {
+    padding: 0;
+}
+
+form p:first-child { 
+    flex: 1 0 auto;
+}
+form label { 
+    display: none;
+}
+
+input {
+    width: 100%;
+    display: block;
+    border: none;
+    background-color: #fff;
+    padding: 0.5em 1.5em;
+}
+
+input[type="text"] {
+    min-width: 30em;
+}
+
+input[type="subbmit"] {
+    background-color: var(--clr-primary);
+    color: white;
+}
+
+
+dt {
+    width: 550px;
+}
+
+dd {
+    width: 550px;
+    background-color: #303030;
+}
+ 
+dt a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+#faqSection {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#temptingP {
+    position: relative;
+    top: 20px;
+}
+
+#netflix-footer {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+h6 {
+   position: relative;
+   right: 220px;
+   margin-bottom: 10px;
+}
+
+.links {
+    position: relative;
+    left: -3px;
+    text-decoration: underline;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.links li {
+    margin-bottom: 10px;
+}
+.links a {
+    color: #808080;
+}
+
+dt a:hover {
+    transition: background-color 0.3s ease-in-out;
+    background-color: #5a5a5a;
+}
