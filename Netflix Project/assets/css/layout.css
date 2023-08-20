@@ -1,0 +1,158 @@
+body {
+    --clr-primary: #E50914;
+}
+
+.site-header , .section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+.site-header h1  {
+    margin: 0;
+}
+
+.site-header a {
+    color: var(--clr-primary);
+    text-decoration: none;
+    position: relative;
+    right: 350px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.site-header a.login {
+    background-color: var(--clr-primary);
+    color: white;
+    border-radius: 0.3em;
+    padding: 0.4em 0.65em;
+    left: 350px;
+    font-weight: 100;
+}
+.site-header a.login:hover {
+    background-color: #b70710;
+}
+
+
+.site-header.section, 
+.section-banner.section {
+    border: none;
+}
+
+
+.section  {
+    background: black;
+    color: white;
+    border-top: 5px solid rgba(255, 255, 255, 0.15);
+}
+
+
+
+.section-container {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+/* Sections  */
+
+.section-banner  {
+    text-align: center;
+}
+
+.section-banner h2 { 
+    max-width: 16em;
+    margin-inline: auto;
+}
+
+.section-banner .section-container {
+    padding: 4em 0;    
+}
+
+.section-banner .sub-title {
+    font-size: 1.2em;
+}
+
+#firstContainer .section-container{
+    display: flex;
+    flex-direction: column;
+    background-size: 50%, 100%;
+}
+
+.section-zigzag.media-left .section-container .media{
+    order: -1;
+}
+
+.section-faq .section-container {
+    padding: 2em 0;
+}
+
+.site-footer .section-container {
+    padding: 2em 0;
+}
+
+.site-footer .links {
+    display: flex;
+}
+
+.site-footer .links { 
+    flex: 1 1 auto;
+}
+
+.site-footer .links li {
+    display: block;
+}
+
+.site-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-footer h6 {
+    padding-bottom: 1em;
+} 
+
+.section-faq .section-container > h2, 
+.section-faq .section-container > p {
+    text-align: center;
+}
+
+.site-footer.section-container { 
+    text-align: center;
+}
+
+#try30daysbtn {
+    background-color: var(--clr-primary);
+    color: #fff;
+    padding: 9.3px 30px;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 4px;
+}
+
+#try30daysbtn:hover {
+    cursor: pointer;
+    background-color: #b70710;
+}
+
+#email {
+    padding: 12px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+
+#email:focus {
+    transition: 300ms ease-in-out;
+    border-color: rgba(43, 184, 113, 1);
+    border-style: solid;
+    outline: none;
+}
+
+.site #head-container {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 1) 100%), url("../bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    
+}
