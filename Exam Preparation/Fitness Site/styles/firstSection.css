@@ -1,0 +1,52 @@
+#first-section {
+    background-color: var(--white-color);
+    display: flex;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -219px;
+    align-items: center; /* Added for vertical centering */
+    flex-direction: column;
+    height: 100vh; /* Added to ensure the section takes up the full viewport height */
+    padding-top: 30px;
+    height: 320px;
+}
+
+#first-section h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container-wrapper {
+    margin-left: 30px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.container {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h6 {
+    margin-bottom: 60px;
+    font-size: 16px;
+    position: relative;
+    bottom: 25px;
+    color:  var(--red-color);
+}
+
+.container img {
+    height: 60px;
+    width: 60px;
+}
+
+.container p {
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+}
