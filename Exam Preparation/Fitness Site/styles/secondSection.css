@@ -1,0 +1,38 @@
+#second-container {
+    background-color: #d7d7d7;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -20px;
+    padding-top: 20px;
+}
+
+#second-container h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+#second-container .container-wrapper .container h5{
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;
+}
+
+#second-container .container-wrapper .container h6{
+    font-size: 12px;
+    position: relative;
+    bottom: 60px;
+}
+
+#second-container .container-wrapper .container p{
+    font-size: 12px;
+    position: relative;
+    bottom: 120px;
+    color: #8a8a8a;
+}
+
+
+#second-container-imgs {
+    height: 140px;
+    width: 190px;
+    border-radius: 4px;
+}
