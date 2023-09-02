@@ -1,0 +1,49 @@
+.fourth-container {
+    margin-top: -20px;
+    text-align: center;
+}
+
+.fourth-container h2 {
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.fourth-inner-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.second-card {
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.second-card:hover {
+    transition: 400ms ease-in-out;
+    box-shadow: 9px 10px 26px 0px rgba(0,0,0,0.75);
+    transform: translateY(-20px);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.second-card p {
+    font-size: 16px;
+}
+
+.second-card h4 {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.second-card h5 {
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.second-card img {
+    margin-top: 15px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+}
