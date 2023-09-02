@@ -1,0 +1,35 @@
+.third-section {
+    margin: -8px;
+    background-color: #5a005a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 220px;
+    margin-top: 4px;
+}
+
+.third-section h3 {
+    font-size: 36px;
+    color: whitesmoke;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.third-inner-container input {
+    padding: 7px 100px;
+    margin-right: 7px;
+}
+
+.third-inner-container button {
+    background-color: #f5f5f5;
+    padding: 7.5px 10px;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.third-inner-container button:hover {
+    transition: 300ms ease-in-out;
+    background-color: #dddddd;   
+}
