@@ -1,0 +1,44 @@
+.second-section {
+    text-align: center;
+}
+
+.second-section h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+
+.second-inner-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transition: 400ms ease-in-out;
+    box-shadow: 9px 10px 26px 0px rgba(0,0,0,0.75);
+    transform: translateY(-20px);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;   
+    border-radius: 55px;
+    box-shadow: -10px 13px 10px -3px rgba(0,0,0,0.75);
+}
+
+.card h5 {
+    margin-top: -15px;
+    font-weight: 500;
+}
+
+.card p {
+    font-size: 15px;
+    font-weight: 500;
+}
