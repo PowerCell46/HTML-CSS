@@ -1,0 +1,68 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first-inner-footer {
+    margin-left: 2%;
+}
+
+.first-inner-footer h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.first-inner-footer p {
+    font-weight: 500;
+}
+
+.second-inner-footer ul{
+    list-style: none;
+    position: relative;
+    right: 18%;
+}
+.second-inner-footer ul li {
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.second-inner-footer ul li:hover {
+    transition: 300ms ease-in-out;
+    text-decoration: underline;
+    color: purple;
+}
+
+.second-inner-footer h5 {
+    font-size: 22px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.third-inner-footer ul {
+    list-style: none;
+    position: relative;
+    right: 14%;
+}
+
+.third-inner-footer ul li {
+    margin-bottom: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.third-inner-footer ul li:hover {
+    transition: 300ms ease-in-out;
+    text-decoration: underline;
+    color: purple;
+}
+
+.third-inner-footer h5 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0px; 
+    cursor: pointer;
+}

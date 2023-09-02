@@ -1,0 +1,94 @@
+@media screen and (max-width: 650px){
+    header ul {
+        display: none;
+    }
+
+    #hidden-menu {
+        display: block;
+        position: relative;
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .header-container h1 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .header-container p {
+        font-size: 12px;
+    }
+    
+    .first-section section h1 {
+        font-size: 30px;
+    }
+
+    #earth {
+        font-size: 130px;
+        padding-top: 120px;
+    }
+
+    .second-section {
+        margin-top: 150px;
+    }
+
+    .second-inner-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .third-section {
+        text-align: center;
+    }
+
+    .third-section h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .third-inner-container input {
+        margin-bottom: 15px;
+    }
+
+    .fourth-inner-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .first-inner-footer {
+        text-align: left ;
+    }
+
+    .first-inner-footer h3 {
+        font-size: 20px;
+        margin-left: -5px;
+    }
+
+    .second-inner-footer {
+        margin-top: -10px;
+        padding-left: 30px;
+    }
+
+    .second-inner-footer h5 {
+        font-size: 20px;
+        margin-left: -30px;
+    } 
+
+    .third-inner-footer {
+        margin-top: 20px;
+    }
+
+    .third-inner-footer h5 {
+        margin: 0px 0px;
+        margin-left: -9px;
+        font-size: 20px;
+    }
+
+    .third-inner-footer {
+        margin-bottom: 200px;
+        margin-left: 10px;
+    }
+}
