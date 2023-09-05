@@ -1,0 +1,46 @@
+body {
+    background-color: #bebebe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+table {
+    margin-top: 18%;
+}
+
+
+th, td {
+    width: 300px;
+    text-align: left;
+    text-indent: 6px;
+    padding: 7px 5px;
+}
+
+tr:nth-child(2n) {
+      background-color: #e5e5e5;
+}
+
+tr:nth-child(2n + 1) {
+    background-color: whitesmoke;
+}
+
+th {
+    background-color: #333333;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 500px){
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    th, td {
+        border: 1px solid gray
+    }
+
+}
